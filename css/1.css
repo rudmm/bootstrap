@@ -30,9 +30,11 @@ h1{
 span{
 	color: #007fff;
 }
-.social {
+figure {
 	width: 114px;
 	height: 16px;
-	text-align: center;
-	
+	}
+#bhc {
+	margin-right: 20px;
+	margin-left: 20px;
 }
