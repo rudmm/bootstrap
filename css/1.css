@@ -1,0 +1,38 @@
+
+body .row .col-2{
+	background: orange;
+}
+header .row {
+	padding-top: 100px;
+}
+nav div img {
+	width: 52px;
+	height: 52px;
+
+}
+.container nav a {
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #007fff;
+	letter-spacing: 3px;
+	line-height: 16px;
+}
+h1{
+	text-transform: capitalize;
+	font-family: 'Nunito', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 60px;
+}
+span{
+	color: #007fff;
+}
+.social {
+	width: 114px;
+	height: 16px;
+	text-align: center;
+	
+}
