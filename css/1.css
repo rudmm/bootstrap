@@ -31,6 +31,7 @@ h1{
 	font-weight: bold;
 	line-height: 60px;
 	margin-bottom: 50px;
+	margin-top: 120px;
 }
 span{
 	color: #007fff;
@@ -47,8 +48,10 @@ figure {
 		font-size: 28px;
 		line-height: 36px;
 		margin-bottom: 30px;
+		margin-top: 60px;
 	}
 	header .container {
 		margin-left: 0;
+		margin-top: 60px;
 	}
 }
