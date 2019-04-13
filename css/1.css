@@ -1,6 +1,7 @@
 header .container {
 	
 	margin-top: 100px;
+
 	padding: 0px;
 }
 .navbar {
@@ -32,4 +33,13 @@ h1{
 }
 span{
 	color: #007fff;
+}
+@media screen and (max-width: 768px){
+	h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	header .container {
+		margin-left: 0;
+	}
 }
