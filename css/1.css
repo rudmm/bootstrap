@@ -30,14 +30,23 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	line-height: 60px;
+	margin-bottom: 50px;
 }
 span{
 	color: #007fff;
+}
+figure {
+	text-align: center;
+}
+.bhc {
+	margin-right: 30px;
+	margin-left: 30px;
 }
 @media screen and (max-width: 768px){
 	h1 {
 		font-size: 28px;
 		line-height: 36px;
+		margin-bottom: 30px;
 	}
 	header .container {
 		margin-left: 0;
