@@ -1,3 +1,4 @@
+	@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 	body{
 		font-size: 16px;
 	}
@@ -19,7 +20,7 @@
 			text-align: center;
 		}
 	li a {
-		font-family: 'Nunito', sans-serif;
+		
 		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 12px;
@@ -32,7 +33,7 @@
 	}
 	h1{
 		text-transform: capitalize;
-		font-family: 'Nunito', sans-serif;
+		
 		font-size: 48px ;
 		line-height: 60px;
 		margin-bottom: 50px;
@@ -51,7 +52,7 @@
 		margin-left: 30px;
 	}
 	#works {
-		font-family: 'Nunito', sans-serif;
+		
 		text-transform: uppercase;
 		font-weight: bold;
 		writing-mode: vertical-rl;	
@@ -62,6 +63,82 @@
 		margin-right: 60px;
 		margin-left: auto;
 	}
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+  	
+}
+.container1 .btn {
+  position: absolute;
+  top: 330px;
+  left: 60px;
+  border: none;
+  border-radius: 15px;
+  width: 80px;
+  font-size: 12px;	
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  
+  color: #000000;
+  background: #ffe300;
+  font-weight: bold;
+}
+.container1 h2 {
+	font-size: 28px;
+	color: #ffffff;	
+	line-height: 36px;
+	position	: absolute;
+	top		: 360px;
+	left		: 60px;
+	
+	text-transform: capitalize;
+		
+		width: 275px;
+
+}
+
+.container2 {
+	position: relative;	
+	width: 50%;
+}
+.container2 h2{
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 36px;
+	position: absolute;
+	top: 605px;
+	left: 60px;		
+	text-transform: capitalize;
+	width: 317px;
+
+}
+.container3 {
+	position: relative;
+	width: 50%;
+}
+.container3 h2{
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 36px;
+	position: absolute;
+	top: 500px;
+	left: 60px;
+	text-transform: capitalize;
+	width: 317px;
+}
+
+.container4 {
+	position: relative;
+	width: 50%;
+}
+
+.container4 .btn {
+	
+}
 
 	
 	@media screen and (max-width: 768px){
@@ -79,6 +156,7 @@
 			
 			margin-top: 60px;
 			margin-right: 30px;
+			padding-left: 10px;
 		}
 		header .row {
 			margin-right: 0;
@@ -95,6 +173,11 @@
 			margin-bottom: 	30px;
 			padding-left: 15px;
 		}
+		.photo{
+			width: 315px;
+			height: 306px;
+		}
+
 
 	}
 
