@@ -137,8 +137,79 @@
 }
 
 .container4 .btn {
-	
+	position: absolute;
+  top: 260px;
+  left: 60px;
+  border: none;
+  border-radius: 15px;
+  width: 80px;
+  font-size: 12px;	
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  
+  color: #000000;
+  background: #ffe300;
+  font-weight: bold;
 }
+.container4 h2{
+	font-size: 28px;
+	color: #ffffff;
+	line-height: 36px;
+	position: absolute;
+	top: 303px;
+	left: 60px;
+	text-transform: capitalize;
+	width: 317px;
+
+}
+.photo {
+	margin-bottom: 120px;
+}
+#about {
+		
+		text-transform: uppercase;
+		font-weight: bold;
+		writing-mode: vertical-rl;	
+		transform: rotate(-180deg);
+		font-size: 12px;
+		color: #979797
+		letter-spacing: 3px;
+		margin-right: 60px;
+		margin-left: auto;
+	}
+	.ab, .ab1{
+		height: 240px;
+	}
+.ab h1, .ab1 h1, .ab2 h1, .ab3 h1{
+	font-size: 28px;
+	line-height: 30px;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.ab p, .ab1 p, .ab2 p, .ab3 p{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-right: : 0;
+
+}
+.ab1, .ab3 {
+	margin-left: 30px;	
+}
+.soc {
+	width: 100%;
+}
+.google{
+	width: 50%;	
+	margin-right: 0;
+}
+.airbnb {
+	width: 50%;
+}
+
 
 	
 	@media screen and (max-width: 768px){
@@ -173,11 +244,61 @@
 			margin-bottom: 	30px;
 			padding-left: 15px;
 		}
-		.photo{
+		.container1 img{
 			width: 315px;
 			height: 306px;
+			margin-bottom: 30px;
+
+		}
+		.container1 .btn{
+			top: 190px;
+			left: 30px;
+		}
+		.container1 h2{
+			top: 224px;
+			left: 30px;
+			width: 183px;
+		}
+		.container2 img{
+			width: 315px;
+			height: 446px;
+			margin-bottom: 30px;
+		}
+		.container2 h2{
+			top: 364px;
+			left: 30px;
+			width: 221px;
+		}
+		.container3 img {
+			width: 315px;
+			height: 404px;
+			margin-bottom: 30px;
+		}
+		.container3 h2{
+			
+			top: 296px;
+			left: 30px;
+			width: 221px;
+		}
+		.container4 img{
+			width: 315px;
+			height: 264px;
+		}
+		.container4 .btn{
+			top: 150px;
+			left: 30px;
+		}
+		.container4 h2{
+			top: 182px;
+			left: 30px;
+			width: 200px;
+		}
+		.container1 h2, .container2 h2, .container3 h2, .container4 h2{
+			font-size: 18px;
+			line-height: 26px;
+
 		}
 
-
-	}
+		
+		}
 
