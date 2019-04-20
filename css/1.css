@@ -199,16 +199,26 @@
 .ab1, .ab3 {
 	margin-left: 30px;	
 }
+.ab2 {
+	margin-bottom: 60px;
+}
 .soc {
-	width: 100%;
+	margin-bottom: 120px;
 }
-.google{
-	width: 50%;	
-	margin-right: 0;
-}
-.airbnb {
-	width: 50%;
-}
+#links {
+		
+		text-transform: uppercase;
+		font-weight: bold;
+		writing-mode: vertical-rl;	
+		transform: rotate(-180deg);
+		font-size: 12px;
+		color: #979797
+		letter-spacing: 3px;
+		margin-right: 60px;
+		margin-left: auto;
+	}
+	
+
 
 
 	
@@ -297,6 +307,18 @@
 			font-size: 18px;
 			line-height: 26px;
 
+		}
+		.google{
+			width: 77px;
+			height: 26px;
+		}
+		.airbnb{
+			width: 82px;
+			height: 25px;
+		}
+		.dropbox{
+			width: 25px;
+			height: 25px;
 		}
 
 		
