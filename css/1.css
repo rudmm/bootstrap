@@ -272,6 +272,23 @@ input::placeholder{
 	line-height: 30px;
 }
 
+.last{
+	padding-bottom: 120px;
+}
+/*footer*/
+.Copyright {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.Invoicing, .Documents{
+	text-align: right;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #979797;
+}
+
 @media screen and (max-width: 768px){
 		h1 {
 			font-size: 28px;
@@ -405,6 +422,13 @@ input::placeholder{
         .formedbtn{
         	padding-top: 0;
         }
-
+        .Copyright{
+        	font-size: 12px;
+        }
+        .Invoicing, .Documents{
+	text-align: left;
+	font-size: 12px;
+	
+}
 		}
 
