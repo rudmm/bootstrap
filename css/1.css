@@ -31,6 +31,7 @@
 	ul li:first-of-type{
 		margin-right: 70px; 
 	}
+	/*main*/
 	h1{
 		text-transform: capitalize;
 		
@@ -58,115 +59,96 @@
 		writing-mode: vertical-rl;	
 		transform: rotate(-180deg);
 		font-size: 12px;
-		color: #979797
+		color: #979797;
 		letter-spacing: 3px;
 		margin-right: 60px;
-		margin-left: auto;
+		margin-left: auto;	
 	}
 
+.pic3, .pic4 {
+  padding-top: 60px;
+}
 
-.container1 {
+
+.pic1 {
   position: relative;
-  width: 50%;
-  	
 }
-.container1 .btn {
+
+.btn {
   position: absolute;
-  top: 330px;
-  left: 60px;
-  border: none;
+    width: 80px;
+  background-color: #ffe300;
   border-radius: 15px;
-  width: 80px;
-  font-size: 12px;	
+  font-size: 12px;
+  font-weight: bold;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 4px;
   padding-top: 4px;
-  
-  color: #000000;
-  background: #ffe300;
-  font-weight: bold;
-}
-.container1 h2 {
-	font-size: 28px;
-	color: #ffffff;	
-	line-height: 36px;
-	position	: absolute;
-	top		: 360px;
-	left		: 60px;
-	
-	text-transform: capitalize;
-		
-		width: 275px;
-
-}
-
-.container2 {
-	position: relative;	
-	width: 50%;
-}
-.container2 h2{
-	font-size: 28px;
-	color: #ffffff;
-	line-height: 36px;
-	position: absolute;
-	top: 605px;
-	left: 60px;		
-	text-transform: capitalize;
-	width: 317px;
-
-}
-.container3 {
-	position: relative;
-	width: 50%;
-}
-.container3 h2{
-	font-size: 28px;
-	color: #ffffff;
-	line-height: 36px;
-	position: absolute;
-	top: 500px;
-	left: 60px;
-	text-transform: capitalize;
-	width: 317px;
-}
-
-.container4 {
-	position: relative;
-	width: 50%;
-}
-
-.container4 .btn {
-	position: absolute;
-  top: 260px;
-  left: 60px;
-  border: none;
-  border-radius: 15px;
-  width: 80px;
-  font-size: 12px;	
-  padding-left: 15px;
-  padding-right: 15px;
   padding-bottom: 4px;
-  padding-top: 4px;
-  
-  color: #000000;
-  background: #ffe300;
-  font-weight: bold;
-}
-.container4 h2{
-	font-size: 28px;
-	color: #ffffff;
-	line-height: 36px;
-	position: absolute;
-	top: 303px;
-	left: 60px;
-	text-transform: capitalize;
-	width: 317px;
 
 }
-.photo {
+.btn1{
+	left: 10%;
+    top: 26%;
+}
+
+.pic1_h {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  color: #ffffff;
+  font-size: 28px;
+  max-width: 275px;
+}
+
+.pic3 {
+  position: relative;
+}
+
+.pic3_h {
+  position: absolute;
+  left: 10%;
+  top: 87%;
+  color: #ffffff;
+  font-size: 28px;
+  max-width: 275px;
+}
+
+.pic2 {
+  position: relative;
+}
+
+.pic2_h {
+  position: absolute;
+    left: 10%;
+    top: 49%;
+  color: #ffffff;  
+  max-width: 317px;
+  font-size: 28px;
+}
+
+.pic4 {
+  position: relative;
+}
+
+.btn2 {
+    left: 10%;
+    top: 86%;
+}
+
+
+.pic4_h {
+  position: absolute;
+    left: 10%;
+    top: 89%;
+  color: #ffffff;  
+  max-width: 317px;
+  font-size: 28px;
+}
+.works{
 	margin-bottom: 120px;
 }
+/*about*/
 #about {
 		
 		text-transform: uppercase;
@@ -174,55 +156,80 @@
 		writing-mode: vertical-rl;	
 		transform: rotate(-180deg);
 		font-size: 12px;
-		color: #979797
+		color: #979797;
 		letter-spacing: 3px;
 		margin-right: 60px;
-		margin-left: auto;
+		margin-left: auto;	
+		padding-bottom: 0;
 	}
-	.ab, .ab1{
-		height: 240px;
-	}
-.ab h1, .ab1 h1, .ab2 h1, .ab3 h1{
+.simple{
+	color: #0080ff;
+}
+.about h2{
 	font-size: 28px;
-	line-height: 30px;
-	text-align: left;
-	margin: 0;
+	line-height: 30px;	
 	margin-bottom: 30px;
 }
-.ab p, .ab1 p, .ab2 p, .ab3 p{
+.about p{
 	font-size: 16px;
 	line-height: 30px;
+	font-weight: 600;
+	padding-bottom: 60px;	
+
+}
+.pharagraph1, .pharagraph2, .pharagraph4{
+	max-width: 467px;
+}
+.pharagraph3{
+	max-width: 500px;
+}
+.about {
+	padding-bottom: 120px;
+}
+/*contacts*/
+.contacts {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+
+
+.text__contact p{
+  padding-top: 50px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  max-width: 230px;
+
+
+}
+
+.social {
+  padding-top: 15px;
+  text-align: left;
+}
+.formed, .formedbtn{
+	padding-top: 90px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.form-group label{
+	font-size: 12px;
+	letter-spacing: 3px;
 	font-weight: bold;
-	margin-right: : 0;
-
+	text-transform: uppercase;
 }
-.ab1, .ab3 {
-	margin-left: 30px;	
+input::placeholder{
+	color: #cfcfcf;
+	font-size: 16px;
+	line-height: 30px;
 }
-.ab2 {
-	margin-bottom: 60px;
-}
-.soc {
-	margin-bottom: 120px;
-}
-#links {
-		
-		text-transform: uppercase;
-		font-weight: bold;
-		writing-mode: vertical-rl;	
-		transform: rotate(-180deg);
-		font-size: 12px;
-		color: #979797
-		letter-spacing: 3px;
-		margin-right: 60px;
-		margin-left: auto;
-	}
-	
 
-
-
-	
-	@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
 		h1 {
 			font-size: 28px;
 			line-height: 36px;
@@ -231,6 +238,7 @@
 			margin-right: 40px; 
 			margin-left: 40px;
 			text-align: center;
+			max-width: 298px;
 
 		}
 		header .container-fluid {
@@ -246,81 +254,83 @@
 			padding-left: 15px;
 			margin-bottom: 60px;
 		}
+/*works*/
 		#works {
 			text-align: center;
 			margin: 0;
 			writing-mode: lr-tb;
 			transform: none;
-			margin-bottom: 	30px;
+			margin: 0px;
 			padding-left: 15px;
 		}
-		.container1 img{
-			width: 315px;
-			height: 306px;
-			margin-bottom: 30px;
-
+		.pic1, .pic2, .pic3, .pic4 {
+			margin-top: 30px;
+			padding: 0px;
 		}
-		.container1 .btn{
-			top: 190px;
-			left: 30px;
-		}
-		.container1 h2{
-			top: 224px;
-			left: 30px;
-			width: 183px;
-		}
-		.container2 img{
-			width: 315px;
-			height: 446px;
-			margin-bottom: 30px;
-		}
-		.container2 h2{
-			top: 364px;
-			left: 30px;
-			width: 221px;
-		}
-		.container3 img {
-			width: 315px;
-			height: 404px;
-			margin-bottom: 30px;
-		}
-		.container3 h2{
-			
-			top: 296px;
-			left: 30px;
-			width: 221px;
-		}
-		.container4 img{
-			width: 315px;
-			height: 264px;
-		}
-		.container4 .btn{
-			top: 150px;
-			left: 30px;
-		}
-		.container4 h2{
-			top: 182px;
-			left: 30px;
-			width: 200px;
-		}
-		.container1 h2, .container2 h2, .container3 h2, .container4 h2{
+		.pic1_h, .pic2_h, .pic3_h, .pic4_h{
 			font-size: 18px;
 			line-height: 26px;
+			font-weight: bold;
+		}
+		.pic1_h{
+			max-width: 183px;
+		}
+		.pic2_h, .pic3_h{
+			max-width: 221px;
+		}
+		.pic4_h{
+			max-width: 200px;
+		}
+		.works{
+			margin-bottom: 60px;
+		}
+		/*about*/
+		#about {
+			text-align: center;
+			margin: 0;
+			writing-mode: lr-tb;
+			transform: none;
+			margin: 0px;
+			padding-left: 15px;
+		}
+		.about h2{
+			font-size: 18px;
+			line-height: 26px;
+			margin-bottom: 10px;
+		}
+		.about p{
+			font-size: 16px;
+			padding-bottom: 30px;
+		}
+		.pharagraph1, .pharagraph2, .pharagraph3, .pharagraph4{
+	max-width: 295px;
+}
+/*contacts*/
+        .contacts {
+          font-size: 18px;
+          line-height: 26px;
+          margin: 0;
+        }
 
-		}
-		.google{
-			width: 77px;
-			height: 26px;
-		}
-		.airbnb{
-			width: 82px;
-			height: 25px;
-		}
-		.dropbox{
-			width: 25px;
-			height: 25px;
-		}
+        .text__contact p{
+          padding-top: 10px;
+          font-size: 16px;
+          line-height: 30px;
+          font-weight: 600;
+          max-width: 295px;
+          margin: 0;
+        }
+        .social{
+        	text-align: left;
+        	margin-top: 20px;
+        	margin-bottom: 0px;
+        }
+        .formed{
+        	padding-top: 60px;
+        }
+        .formedbtn{
+        	padding-top: 0;
+        }
 
-		
 		}
 
