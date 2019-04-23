@@ -41,7 +41,7 @@
 		margin-top: 120px;
 		text-align: center;
 	}
-	span{
+	h1 span{
 		color: #007fff;
 	}
 	figure {
@@ -179,13 +179,18 @@
 }
 .pharagraph1, .pharagraph2, .pharagraph4{
 	max-width: 467px;
+	margin: 0;
 }
 .pharagraph3{
 	max-width: 500px;
+	margin: 0;
 }
 .about {
 	padding-bottom: 120px;
 }
+.read-more-state {
+    display: none;
+  }
 
 /*links*/
 #links {
@@ -289,18 +294,7 @@ input::placeholder{
 	font-weight: 600;
 	color: #979797;
 }
-body{
-	border: 1px solid red;
-}
-header, footer{
-	border: 1px solid green;
-}
-section{
-	border: 1px solid blue;
-}
-div[class^=col]{
-	border: 1px solid yellow;
-}
+
 
 @media screen and (max-width: 768px){
 		h1 {
@@ -377,7 +371,34 @@ div[class^=col]{
 		}
 		.pharagraph1, .pharagraph2, .pharagraph3, .pharagraph4{
 	max-width: 295px;
+
 }
+.read-more-state {
+    display: none;
+  }
+
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+
+  .read-more-state:checked ~ .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height:999em;
+  }
+
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'See more...';
+    color: #007fff;
+  }
+
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Less';
+  }
+
 .img1{
 	width: 77px;
 	height: 26px;
@@ -390,6 +411,9 @@ div[class^=col]{
 	width: 25px;
 	height: 25px;
 	float: right;	
+}
+.soc{
+	padding-left: 15px;
 }
 .imgsize{
 	width: 33.333%;
@@ -450,6 +474,9 @@ div[class^=col]{
         }
         .formedbtn{
         	padding-top: 0;
+        }
+        .last{
+        	padding-bottom: 60px;
         }
         .Copyright{
         	font-size: 12px;
