@@ -186,6 +186,7 @@
 .about {
 	padding-bottom: 120px;
 }
+
 /*links*/
 #links {
 		
@@ -288,6 +289,18 @@ input::placeholder{
 	font-weight: 600;
 	color: #979797;
 }
+body{
+	border: 1px solid red;
+}
+header, footer{
+	border: 1px solid green;
+}
+section{
+	border: 1px solid blue;
+}
+div[class^=col]{
+	border: 1px solid yellow;
+}
 
 @media screen and (max-width: 768px){
 		h1 {
@@ -365,6 +378,23 @@ input::placeholder{
 		.pharagraph1, .pharagraph2, .pharagraph3, .pharagraph4{
 	max-width: 295px;
 }
+.img1{
+	width: 77px;
+	height: 26px;
+}
+.img2{
+	width: 82px;
+	height: 25px;
+}
+.img3{
+	width: 25px;
+	height: 25px;
+	float: right;	
+}
+.imgsize{
+	width: 33.333%;
+	padding: 0;
+}
 /*links*/
 #links {
 			text-align: center;
@@ -386,7 +416,6 @@ input::placeholder{
 		margin: 0;	
 	}
 	.gruppa{
-		padding-left: 0;
 		padding-bottom: 10px;
 		max-width: 294px;
 	}
